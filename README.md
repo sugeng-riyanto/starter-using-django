@@ -56,22 +56,23 @@ In the VS Code Terminal, again with the virtual environment activated, run the d
         http://127.0.0.1:8000/
 
 Done, Congrats!
-Furthemore, click this link:
+Furthermore, click this link:
 
-[https://sites.google.com/view/coding9/pyhton-django](https://sites.google.com/view/coding9/pyhton-django)
+<a href="https://sites.google.com/view/coding9/pyhton-django" target="_blank"> ***Click Here *** </a>
+
 
 # Starter-using-django
 ## How to push repository on github
 Configure your local Git installation to use your GitHub credentials by entering the following:
-fill username:
+Fill username:
 
     git config --global user.name "github_username"
     
-fill email:
+Fill email:
 
     git config --global user.email "email_address"
     
-type here:
+Type here:
 
     git config --global init.defaultBranch main
 
@@ -81,15 +82,15 @@ Initial step:
 
     git init
 
-#check status
+#Check status
     
     git status
 
-#add all files
+#Add all files
     
     git add .
 
-#check the update status
+#Check the update status
     
     git status
 
@@ -117,3 +118,7 @@ In git, a “remote” refers to a remote version of the same repository, which 
     git commit -m 'Added my project'
     git remote add origin git@github.com:sammy/my-new-project.git
     git push -u -f origin main
+    
+#Refresh your GitHub Account, to check the result.
+
+Best Regards.
