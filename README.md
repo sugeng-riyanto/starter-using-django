@@ -1,3 +1,65 @@
+# Precautions
+Install Python
+        
+        https://www.python.org/downloads/ 
+
+Setting Environment Variable.
+
+Install Git: 
+
+        https://git-scm.com/downloads 
+
+Install VSCode: 
+        
+        https://code.visualstudio.com/ 
+
+Create new folder on your local computer/laptop.
+
+Right-click, Open gitbash
+
+Open VSCode:
+
+        Code .
+
+SELECT INTERPRETER venv
+
+        .venv\scripts\activate # this is from interpreter
+
+In terminal
+
+        python -m pip install --upgrade pip
+
+then
+
+        .venv\Scripts\Activate.ps1
+
+
+Install pip of django
+
+
+        python -m pip install django
+
+Create new folder, example is nameyourprojectfolder
+
+        python -m django startproject nameyourprojectfolder .
+
+do migration
+
+        python manage.py migrate
+
+run your first project
+    
+        python manage.py runserver
+
+In the VS Code Terminal, again with the virtual environment activated, run the development server with python manage.py runserver and open a browser to 
+
+        http://127.0.0.1:8000/
+
+Done, Congrats!
+Furthemore, click this link:
+
+[https://sites.google.com/view/coding9/pyhton-django](https://sites.google.com/view/coding9/pyhton-django)
+
 # Starter-using-django
 ## How to push repository on github
 Configure your local Git installation to use your GitHub credentials by entering the following:
